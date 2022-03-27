@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>online calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <h2>Online Calculator</h2>
+    <div class="form">
+         <form id="formulir">
+        <!-- inputan ankga -->
+        <div>
+          <label for="a1">Angka 1 : </label>
+          <input type="text" onfocus="angka1()" name="a1" value="" placeholder="Masukkan Angka">
+        </div>
+        <div>
+          <label for="a2">Angka 2 : </label>
+          <input type="text" onfocus="angka2()" name="a2" value="" placeholder="Masukkan Angka">
+        </div>
+          <div>
+
+            <label for="hasil">Hasil : </label>
+            <input type="text" name="hasil" value="" placeholder="Hasil" disabled>
+          </div>
+        <br>
+        <!-- tutup inputan angka -->
+
+
+        <!-- tombol -->
+        <input type="button" name="tambah" onclick="hitung(this.name)" value="+">
+        <input type="button" name="kurang" onclick="hitung(this.name)" value="-">
+        <input type="button" name="bagi" onclick="hitung(this.name)" value="/">
+        <input type="button" name="kali" onclick="hitung(this.name)" value="X">
+        <input type="button" name="pangkat" onclick="hitung(this.name)" value="^">
+        <input type="button" name="batal" onclick="kosongAll()" value="Batal">
+
+
+    </form>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
