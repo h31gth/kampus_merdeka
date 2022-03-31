@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>tugas jquery</title>
+        <script type="text/javascript" src="../js/jquery.js"></script>
+        <link rel="stylesheet" href="css/style1.css">
+        <script type="text/javascript">
+            // function jquery
+            $("document").ready(function () {
+
+            // jquery for change background
+            $("#div1").mouseover(function () {
+            $(this).css({
+            background: "url('https://equimanagement.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTcyNTA2Mjk5MjQ0NzQ5OTA3/tongue-out-horse-head-istock-alexandra-surkova-1192159893-2400.jpg')"
+            });
+            });
+            $("div").mouseout(function () {
+            $(this).css({
+            background: "#03045E"
+            });
+            });
+            $("#div2").mouseover(function () {
+            $(this).css({
+            background: "url('https://awsimages.detik.net.id/visual/2020/05/07/2043d947-c9ec-4d1d-89a0-4b2e55b9e4e1.jpeg?w=650')"
+            });
+            });
+            $("div").mouseout(function () {
+            $(this).css({
+            background: "#03045E"
+            });
+            });
+            $("#div3").mouseover(function () {
+            $(this).css({
+            background: "url('https://picture-origin.rumah123.com/news-content/img/2021/10/05093626/burung-beo.jpg')"
+            });
+            });
+            $("div").mouseout(function () {
+            $(this).css({
+            background: "#03045E"
+            });
+            });
+            $("#div4").mouseover(function () {
+            $(this).css({
+            background: "url('https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1604044471/vuwkgj5eiymm9bzcbgxx.png')"
+            });
+            });
+            $("div").mouseout(function () {
+            $(this).css({
+            background: "#03045E"
+            });
+            });
+            $("#div5").mouseover(function () {
+            $(this).css({
+            background: "url('https://www.greeners.co/wp-content/uploads/2021/03/Kucing-Domestik-1.jpg')"
+            });
+            });
+            $("div").mouseout(function () {
+            $(this).css({
+            background: "#03045E"
+            });
+            });
+
+            // jquery sound
+            $("#div1").mouseenter(function(){
+                $("<audio></audio>").attr({ 
+                    'src':'../sound/hewan_1.mp3', 
+                    'volume':0.4,
+                    'autoplay':'autoplay'
+                }).appendTo("body");
+            });
+            // sound hewan 2
+            $("#div2").mouseenter(function(){
+                $("<audio></audio>").attr({ 
+                    'src':'../sound/hewan_2.mp3', 
+                    'volume':0.4,
+                    'autoplay':'autoplay'
+                }).appendTo("body");
+            });
+            // sound hewan 3
+            $("#div3").mouseenter(function(){
+                $("<audio></audio>").attr({ 
+                    'src':'../sound/hewan_3.mp3', 
+                    'volume':0.4,
+                    'autoplay':'autoplay'
+                }).appendTo("body");
+            });
+            // sound hewan 4
+            $("#div4").mouseenter(function(){
+                $("<audio></audio>").attr({ 
+                    'src':'../sound/hewan_4.mp3', 
+                    'volume':0.4,
+                    'autoplay':'autoplay'
+                }).appendTo("body");
+            });
+            // sound hewan 5
+            $("#div5").mouseenter(function(){
+                $("<audio></audio>").attr({ 
+                    'src':'../sound/hewan_5.mp3', 
+                    'volume':0.4,
+                    'autoplay':'autoplay'
+                }).appendTo("body");
+            });
+            });
+    </script>
+
+        
+</head>
+<body>
+    <h2>Letakkan kursor ke masing masing kotak untuk mengaktifkan suara</h2>
+
+        <div id="div1">Hewan Kuda</div>
+        <div id="div2">Hewan Orang Utan</div>
+        <div id="div3">Hewan Burung</div>
+        <div id="div4">Hewan Anjing</div>  
+        <div id="div5">Hewan Kucing</div> 
+        
+
+</body>
+</html>
