@@ -1,0 +1,31 @@
+div.container{
+    display:flex;
+    width: 60%;
+    
+    color: #070925;
+    font-weight: bold;
+}
+h2{
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600; 
+    font-size: 30pt;
+    text-align: left;
+}
+hr{
+ border: dashed 4px cyan;
+}
+div.info_1 .info_2 .info_3 {
+    height: 175px;
+    width: 300px;
+    display: none;
+    }
+div.info_1, div.info_2, div.info_3,
+    p.flip_1, p.flip_2, p.flip_3 {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10%;
+    width: 300px;
+    background: #12eb06;
+    border: 8px ridge yellow;
+    }

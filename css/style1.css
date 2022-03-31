@@ -1,0 +1,24 @@
+
+h2{
+    text-align: center;
+    margin: 100px 50px;
+}
+body{
+    text-align: center;
+    margin: auto;
+    background-color: #FBF8F1;
+}
+
+#div1, #div2, #div3, #div4, #div5{
+    display: inline-block;
+    margin: auto;
+    width: 30%;
+    color: #FBF8F1;
+    border: 3px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background: #12eb06;
+    height: 200px;
+    cursor: pointer;
+}
+
