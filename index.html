@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tugas-1 RWD</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- baris pertama -->
+        <div class="row">
+            <div class="col-md-12">
+               <!-- Awal Carousel -->
+               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gambar Pertama</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/img1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gambar Kedua</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gambar Ketiga</h5>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/img3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Gambar Keempat</h5>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+               <!-- Akhir Carousel  -->
+            </div>
+        </div>
+        <!-- tutup baris pertama -->
+
+        <!-- baris kedua -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Awal navigation -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Nurul F.Com</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Learn
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Fullstack Web Dev</a></li>
+                              <li><a class="dropdown-item" href="#">Network Administator</a></li>
+                            </ul>
+                          </li>
+
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                <!-- Akhir navigation -->
+            </div>
+        </div>
+        <!-- tutup baris kedua -->
+
+        <!-- baris ketiga -->
+        <div class="row">
+            <div class="col-xl-3">
+                <!-- Awal list group -->
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      Nurul F.Com
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Fullstack Web Developer</a>
+                    <a href="#" class="list-group-item list-group-item-action">UI/UX</a>
+                    <a href="#" class="list-group-item list-group-item-action">Back-End</a>
+                    <a class="list-group-item list-group-item-action">Bidang</a>
+                  </div>
+                <!-- Akhir list group -->
+            </div>
+            <div class="col-xl-6">
+                <!-- Awal content -->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#main1">accordion</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#main2">Table</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#main3">Card</a>
+                    </li>
+                  </ul>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#main1" aria-expanded="true" aria-controls="main1">
+                          Profile Company
+                        </button>
+                      </h2>
+                      <div id="main1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>NF COMPUTER</strong> adalah bagian dari grup Nurul Fikri yang telah dipercaya oleh masyarakat Indonesia di bidang pendidikan dan peningkatan sumber daya manusia selama lebih dari 24 tahun. Alumni-alumninya telah berkiprah dan diakui kualitas kerja dan integritasnya oleh dunia usaha. <br />
+                          <p>
+                              NF COMPUTER dirintis sejak tahun 1994 dan merupakan sebuah lembaga di bidang pendidikan dan pelatihan IT (Information Technology). Kami berkomitmen menjadi partner perusahaan Anda dalam mengembangkan kemampuan serta keahlian SDM di bidang IT. Dengan komitmen tersebut, kami mempersiapkan tim pengajar yang professional dan berpengalaman di bidang IT.
+                          </p>
+                          <p> <code> Di Era Industri 4.0 </code>saat ini, teknologi informasi berkembang sangat cepat, oleh karena itu pengembangan sumber daya manusia di bidang IT menjadi sebuah kebutuhan yang perlu diprioritaskan. NF COMPUTER menjadi jawaban yang tepat atas kebutuhan pengembangan kompetensi IT. Sehingga kami selalu berusaha untuk terus berinovasi terhadap teknologi terbaru.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="main2">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                              <th scope="col">Nama</th>
+                              <th scope="col">Pendidikan</th>
+                              <th scope="col">Lokasi</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>Husnul Habibie</td>
+                                  <td>Universitas Muhammadiyah Riau</td>
+                                  <td>Kota Pekanbaru, Riau</td>
+                              </tr>
+                          </tbody>
+                          <tfoot class="table-hover">
+                              <tr>
+                                  <td class="text-center" colspan="3">Biodata Diri</td>
+                              </tr>
+                          </tfoot>
+                    </table>
+                    </div>
+                    <div id="main3" class="card bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-header">Card</div>
+                        <div class="card-body">
+                          <h4 class="card-title">Secondary card title</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                <!-- Akhir content -->
+            </div>
+            <div class="col-xl-3" float="right">
+                <!-- Awal list goup2 -->
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      Sponsor
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Sponsor 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sponsor 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sponsor 3</a>
+                    <a class="list-group-item list-group-item-action">Sponsor 4</a>
+                  </div>
+                  <!-- Akhir list group2 -->
+            </div>
+        </div>
+        <!-- tutup baris ketiga -->
+
+        <!-- baris keempat -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Awal footer -->
+                <div class="alert alert-dismissible alert-primary text-center" role="alert">
+                  <p>©2022 Copyright: Husnul Habibie</p> 
+                  </div>
+                <!-- Akhir footer -->
+            </div>
+        </div>
+        <!-- tutup baris keempat -->
+    </div>
+
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
