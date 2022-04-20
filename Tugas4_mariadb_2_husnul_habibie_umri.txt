@@ -1,0 +1,32 @@
+- masuk ke ruang DB dbpegawai melalui CMD
+
+
+- tampilkan data pegawai yang umurnya paling muda gunakan klausa sub queri
+
+- tampilkan data pegawai yang paling gemuk gunakan klausa sub queri
+
+- cari data pegawai yang berawalan namanya muhammad gunakan klausa like
+
+- cari data pegawai yang berakhiran namanya santoso gunakan klausa like
+
+- cari data pegawai yang berinisial asep gunakan klausa like
+
+- cari data pegawai yang huruf ke-5 nya S gunakan klausa like
+
+- tampilkan gender pegawai dengan klausa distinct
+
+- dengan klausa case, tampilkan data nama, gender, keterangan:
+
+  jika berat badannya 0 - 40 = kurus
+
+  jika berat badannya 41 - 75 = normal
+
+  jika berat badannya 76 - 80 = gemuk
+
+  jika berat badannya > 80 = obesitas
+
+- hitung jumlah data pegawai berdasarkan gendernya gunakan klausa group by
+
+- tampilkan data jumlah pegawai berdasarkan gendernya, jml pegawai >= 10
+
+  gunakan klausa having
